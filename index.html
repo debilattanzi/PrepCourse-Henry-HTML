@@ -4,82 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pasteleria by Valentina</title>
+    <link rel="stylesheet" type="text/css" href="./estilos.css" />
+    <link rel="stylesheet" href="./reset.css" />
+ 
 </head>
-<body>
+<body class="cuerpo">
     <header>
-        <h1> PASTELERIA by VALENTINA </h1>
-        <hr />
+        <h1 class="title" id="principal"> PASTELERIA by VALENTINA </h1>
     </header>
   
     <main>
         <section>
-            <div>
+          
+            <div class="presentacion">
                 <h4>
                 Nuestra pasteleria se caracteriza por sus deliciosos postres que haran que quieras probar todas
                 las variedades que tenemos para ofrecerte.
                 </h4>
-                <hr />
             </div>
             
-            <div>
-                <p>
-                    Nuestra variedad:
-                </p>
+            <div class="imagen-principal-container">
+                <div class="title-secundario">
+                    <p >
+                      Variedades:
+                    </p>
         
-                <ul>
-                    <li>cheesecake</li>
-                    <li>tiramisu</li>
-                    <li>pancake</li>
-                </ul>
-            </div>
+                </div>
             
-            <div>
-                <img src="./cheesecake.jpeg" />
-                <img src="./tiramisu.jpeg" />
-                <img src="./images.jpeg" />
-                <hr />
+                <div class="imagen-container">
+                    <div class="postres">
+                        <img src="./imagenes/cheesecake.jpeg" />
+                        <h3 class="nombre"> CHEESCAKE </h3>
+                    </div>
+                    <div class="postres">  
+                        <img src="./imagenes/tiramisu.jpeg" />
+                        <h3 class="nombre"> TIRAMISU </h3>
+                    </div> 
+                    <div class="postres"> 
+                        <img src="./imagenes/images.jpeg" />
+                        <h3 class="nombre">PANCAKE</h3>
+                    </div>
+                </div>
             </div>
-
-            <form>
-
-            <div>
+            <div class="title-secundario">
                 <p>
                     Hace tu pedido aqui:
                 </p>
             </div>
 
-            <div>
-                <input type="text" name="nombre" placeholder="Nombre" />
-                <input type="text" name="apellido" placeholder="Apellido" />
-            </div>
+            <div class="formulario-container">
+                <form>
 
-            <div>
-                <input type="number" name="telefono" placeholder="Telefono" />
-            </div>
+                
 
-            <div>
-                <p>Elija entre las siguientes opciones:</p>
-                <input type="radio" name="cheesecake" value="cheesecake"> Cheescake: 
-                <input type="radio" name="tiramisu" value="tiramisu"> Tiramisu:
-                <input type="radio" name="pancake" value="pancake"> Pancake:  
-            </div>
+           
+                <div>
+                    <input type="text" name="nombre" placeholder="Nombre" />
+                    <input type="text" name="apellido" placeholder="Apellido" />
+                </div>
 
-            <div>
-                <input type="number" name="cantidad" placeholder="Cantidad" />
-            </div>
+                <div>
+                    <input type="number" name="telefono" placeholder="Telefono" />
+                </div>
 
-            <div>
-                <input type="text" name="domicilio" placeholder="Domicilio" />
-                <input type="text" name="localidad" placeholder="Localidad" />
-            </div>
+                <div>
+                    <p>Elija entre las siguientes opciones:</p>
+                    <input type="radio" name="cheesecake" value="cheesecake"> Cheescake: 
+                    <input type="radio" name="tiramisu" value="tiramisu"> Tiramisu:
+                    <input type="radio" name="pancake" value="pancake"> Pancake:  
+                </div>
+
+                <div>
+                    <input type="number" name="cantidad" placeholder="Cantidad" />
+                </div>
+
+                <div>
+                    <input type="text" name="domicilio" placeholder="Domicilio" />
+                    <input type="text" name="localidad" placeholder="Localidad" />
+                </div>
             
-                <button> ENVIAR </button>
-                <hr />
-            </form>
+                    <button> ENVIAR </button>
+        
+                </form>
+            </div>
         </section>
     </main>
     <footer>
-            <div>
+            <div class="pie">
                 <a href="./contacto.html">CONTACTO </a>
             </div>
 

@@ -1,0 +1,87 @@
+.title{
+    font-size: 3em;
+    color: black; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+#principal{
+    font: 3em sans-serif;
+
+}
+
+.cuerpo{
+    background-color: rgb(218, 166, 190);
+    margin: 1em;
+}
+
+.presentacion{
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1em 0 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.title-secundario{
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1em 2em 0.5em 2em;
+
+}
+
+.postres:hover{
+    background-color: blueviolet;
+}
+
+.imagen-container{
+    width: 90%;
+    margin: auto;
+    margin-top: 0.5em;
+    margin-bottom: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.nombre{
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+
+}
+
+
+.formulario-container{
+    width: 25%;
+    height: 10em;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0.1em solid rgb(192, 137, 243);
+    background-color: rgb(214, 181, 245);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.imagen-principal-container{
+    border: 0.1em solid rgb(192, 137, 243);
+    background-color: rgb(214, 181, 245);
+    border-radius: 3%;
+
+}
+.pie{
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2em;
+}
